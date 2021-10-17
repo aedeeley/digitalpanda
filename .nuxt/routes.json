@@ -1,0 +1,30 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/alexdeeley/GitHub/digitalpanda/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_f9dec0b8"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "/Users/alexdeeley/GitHub/digitalpanda/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_03e41af7"
+  },
+  {
+    "name": "work",
+    "path": "/work",
+    "component": "/Users/alexdeeley/GitHub/digitalpanda/pages/work.vue",
+    "chunkName": "pages/work",
+    "_name": "_0f66956c"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/alexdeeley/GitHub/digitalpanda/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_ba6f0b2e"
+  }
+]
