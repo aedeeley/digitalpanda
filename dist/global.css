@@ -7,9 +7,9 @@ html {
 body {
     width: 100%;
     background: #f4f4f4;
-    background-image: url("../static/bg2.jpg");
-    background-position-x: -200px;
-    background-position-y: 50px;
+    background-image: url("../static/bg.jpg");
+    background-position-x: center;
+    background-position-y: -150px;
     background-repeat: no-repeat;
 }
 

@@ -1,7 +1,13 @@
 <template>
   <div class="flex flex-row pt-20">
     <div id="header">
-      <div id="logo" class="pl-5" data-aos="fade-in" data-aos-duration="500">
+      <div
+        id="logo"
+        class="pl-5"
+        data-aos="fade-in"
+        data-aos-duration="800"
+        data-aos-delay="200"
+      >
         <NuxtLink to="/"
           ><svg
             width="95"
@@ -54,7 +60,7 @@
         >
       </div>
 
-      <label data-aos="fade-in" data-aos-duration="2000">
+      <label data-aos="fade-in" data-aos-duration="400" data-aos-delay="300">
         <input type="checkbox" id="myInput" />
         <span class="menu">
           <span class="hamburger"></span>
@@ -212,6 +218,8 @@ label input:checked ~ #nav {
   text-align: right;
   transition: all 0.4s ease;
   border-bottom: 6px solid transparent;
+  text-align: right;
+  float: right;
 }
 #nav a:hover {
   color: rgb(248, 248, 248);

@@ -7,7 +7,12 @@
       devices.
     </h2>
 
-    <div class="secondary mt-20" data-aos="fade-left" data-aos-duration="7500">
+    <div
+      class="secondary mt-20"
+      data-aos="fade-left"
+      data-aos-duration="750"
+      data-aos-offset="-10"
+    >
       <NuxtLink to="/work" class="btn">
         <span>See our work</span>
         <svg

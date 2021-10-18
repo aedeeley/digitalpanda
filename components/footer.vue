@@ -2,8 +2,9 @@
   <div
     id="footer"
     class="pt-40 pb-20 pl-10 pr-10"
-    data-aos="fade-up"
-    data-aos-duration="800"
+    data-aos="fade"
+    data-aos-duration="300"
+    data-aos-delay="200"
   >
     <div id="copyright">&copy; Copyright 2021. All Rights Reserved.</div>
     <div id="links">
