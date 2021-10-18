@@ -2,8 +2,8 @@
   <div id="content" class="flex flex-col mt-20 pl-10 pr-10">
     <h2 data-aos="fade-right" data-aos-duration="400">
       For the past two decades we’ve specialized in creating
-      <a href="#" class="underline">engaging</a> and
-      <a href="#" class="underline">accessible</a> experiences on web and mobile
+      <span class="underline">engaging</span> and
+      <span class="underline">accessible</span> experiences on web and mobile
       devices.
     </h2>
 
@@ -59,46 +59,6 @@
   font-size: 60pt;
   line-height: 1.3;
   color: rgb(58, 58, 58);
-}
-.underline {
-  text-decoration: none;
-  position: relative;
-}
-.underline:before {
-  position: absolute;
-  content: " ";
-  height: 6px;
-  /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
-  bottom: 10px;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  width: 100%;
-  background: #ffcc33;
-  z-index: -1;
-}
-.btn {
-  background-color: #ffcc33;
-  padding: 15px 30px;
-  color: rgb(248, 248, 248);
-  font-size: 12pt;
-  letter-spacing: 1px;
-  float: left;
-  display: block;
-  border-radius: 100px;
-  transition: all 1s ease;
-}
-.btn span {
-  font-family: "Inter", sans-serif;
-  float: left;
-}
-.btn svg {
-  float: left;
-  margin-left: 1rem;
-  margin-top: 8px;
-}
-.btn:hover {
-  background-color: #ffcc66;
 }
 .bolt {
   float: left;

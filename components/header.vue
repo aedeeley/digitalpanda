@@ -61,22 +61,26 @@
       </div>
 
       <label data-aos="fade-in" data-aos-duration="400" data-aos-delay="300">
-        <input type="checkbox" id="myInput" />
+        <input type="checkbox" id="resetCheckbox" />
         <span class="menu">
           <span class="hamburger"></span>
         </span>
         <ul id="nav">
           <li>
-            <NuxtLink to="/" onclick="myInput.click()">home</NuxtLink>
+            <NuxtLink to="/" onclick="resetCheckbox.click()">home</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/about" onclick="myInput.click()">about</NuxtLink>
+            <NuxtLink to="/about" onclick="resetCheckbox.click()"
+              >about</NuxtLink
+            >
           </li>
           <li>
-            <NuxtLink to="/work" onclick="myInput.click()">work</NuxtLink>
+            <NuxtLink to="/work" onclick="resetCheckbox.click()">work</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/contact" onclick="myInput.click()">contact</NuxtLink>
+            <NuxtLink to="/contact" onclick="resetCheckbox.click()"
+              >contact</NuxtLink
+            >
           </li>
         </ul>
       </label>
@@ -115,8 +119,8 @@
 }
 label .hamburger {
   position: absolute;
-  top: 130px;
-  left: 50px;
+  top: 50%;
+  right: 35%;
   width: 30px;
   height: 3px;
   background: #373737;
@@ -172,13 +176,13 @@ label input:checked + .menu + ul {
 }
 label .menu {
   position: absolute;
-  right: -100px;
-  top: -100px;
+  right: 0;
+  top: -20px;
   z-index: 100;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   background: transparent;
-  border-radius: 50% 50% 50% 50%;
+  border-radius: 100%;
   -webkit-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
   box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff;
