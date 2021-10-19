@@ -13,8 +13,8 @@
       data-aos-duration="750"
       data-aos-offset="-10"
     >
-      <NuxtLink to="/work" class="btn">
-        <span>See our work</span>
+      <NuxtLink to="/about" class="btn">
+        <span>Learn more about us</span>
         <svg
           width="9"
           height="11"
