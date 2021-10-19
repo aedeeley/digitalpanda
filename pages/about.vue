@@ -43,8 +43,6 @@
   </div>
 </template>
 
-<script></script>
-
 <style scoped>
 .headerImg {
   border-radius: 40px 0 0 0;

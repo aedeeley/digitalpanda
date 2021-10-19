@@ -47,9 +47,6 @@
     </div>
   </div>
 </template>
-
-<script></script>
-
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
