@@ -1,43 +1,245 @@
 <template>
-  <div id="content" class="flex flex-col mt-40 pl-10 pr-10">
-    <div id="about">
-      <img src="../static/about.jpg" class="headerImg" />
-      <h2
-        class="txt1"
-        data-aos="fade-left"
-        data-aos-duration="400"
-        data-aos-delay="400"
-      >
-        let's talk
-      </h2>
-      <h2
-        class="txt2"
-        data-aos="fade-right"
-        data-aos-duration="200"
-        data-aos-delay="200"
-      >
-        design
-      </h2>
-      <div
-        class="txt3"
-        data-aos="fade-in"
-        data-aos-duration="800"
-        data-aos-delay="600"
-      >
-        <p class="mb-10">
-          Design is about envoking emotion, it's about conveying an idea
-          <em>precisely</em>. It's about showing your value and fluently
-          defining the optimal way to accomplish a task. Here at
-          <span class="underline">digitalpanda</span>, we eat, breathe and sleep
-          design.
-        </p>
-        <p>We <em>live</em> design!</p>
-        <p>
-          We understand the intricacies between taking inspiration and
-          re-inventing the wheel. We believe in the adage - function
-          <em>over</em> form.
-        </p>
-        <p></p>
+  <div id="content" class="flex flex-col mt-40">
+    <div class="container mx-auto pl-10 pr-10">
+      <div id="about">
+        <img src="../static/about.jpg" class="headerImg" />
+        <h2
+          class="txt1"
+          data-aos="fade-left"
+          data-aos-duration="400"
+          data-aos-delay="400"
+        >
+          let's talk
+        </h2>
+        <h2
+          class="txt2"
+          data-aos="fade-right"
+          data-aos-duration="200"
+          data-aos-delay="200"
+        >
+          design
+        </h2>
+        <div
+          class="txt3"
+          data-aos="fade-in"
+          data-aos-duration="800"
+          data-aos-delay="600"
+        >
+          <p class="mb-10">
+            Design is about envoking emotion, it's about conveying an idea
+            <em>precisely</em>. It's about showing your value and fluently
+            defining the optimal way to accomplish a task. Here at
+            <span class="underline">digitalpanda</span>, we eat, breathe and
+            sleep design.
+          </p>
+          <p>We <em>live</em> design!</p>
+          <p>
+            We understand the intricacies between taking inspiration and
+            re-inventing the wheel. We believe in the adage - function
+            <em>over</em> form.
+          </p>
+          <p></p>
+        </div>
+      </div>
+      <div id="services" class="mt-40">
+        <h2
+          class="text-center"
+          data-aos="fade-in"
+          data-aos-duration="400"
+          data-aos-delay="300"
+        >
+          Check out our full range of marketing services
+        </h2>
+
+        <div class="flex mt-20 gap-20">
+          <div class="flex-1">
+            <div class="grid grid-cols-2 gap-4">
+              <div
+                class="panel"
+                data-aos="fade-in"
+                data-aos-duration="500"
+                data-aos-delay="100"
+              >
+                <img src="../static/panel-1.svg" alt="Design" />
+                <h4>Design</h4>
+                <p>Nanotechnology immersion along the information highway.</p>
+              </div>
+
+              <div
+                class="panel"
+                data-aos="fade-in"
+                data-aos-duration="700"
+                data-aos-delay="300"
+              >
+                <img src="../static/panel-2.svg" alt="Development" />
+                <h4>Development</h4>
+                <p>Nanotechnology immersion along the information highway.</p>
+              </div>
+
+              <div
+                class="panel"
+                data-aos="fade-in"
+                data-aos-duration="3--"
+                data-aos-delay="500"
+              >
+                <img src="../static/panel-3.svg" alt="Branding" />
+                <h4>Branding</h4>
+                <p>Nanotechnology immersion along the information highway.</p>
+              </div>
+
+              <div
+                class="panel"
+                data-aos="fade-in"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
+                <img src="../static/panel-4.svg" alt="Marketing" />
+                <h4>Marketing</h4>
+                <p>Nanotechnology immersion along the information highway.</p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="flex-1 pt-20"
+            data-aos="fade-in"
+            data-aos-duration="500"
+            data-aos-delay="900"
+          >
+            <p>
+              Design is about envoking emotion, it's about conveying an idea
+              precisely. It's about showing your value and fluently defining the
+              optimal way to accomplish a task. Here at digitalpanda, we eat,
+              breathe and sleep design.
+            </p>
+
+            <p>
+              We understand the intricacies between taking inspiration and
+              re-inventing the wheel. We believe in the adage - function over
+              form.
+            </p>
+
+            <p>
+              Design is about envoking emotion, it's about conveying an idea
+              precisely. It's about showing your value and fluently defining the
+              optimal way to accomplish a task. Here at digitalpanda, we eat,
+              breathe and sleep design.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      id="testimonials"
+      class="fullwidth mt-40 mb-40 pl-40 pr-40"
+      data-aos="fade-in"
+      data-aos-duration="800"
+      data-aos-delay="200"
+    >
+      <div class="container mx-auto">
+        <div class="flex">
+          <div
+            class="flex-1"
+            data-aos="fade-in"
+            data-aos-duration="1000"
+            data-aos-delay="700"
+          >
+            <img src="../static/testimonial.png" alt="Testimonials" />
+          </div>
+          <div
+            class="flex-1 pl-20 pr-20"
+            data-aos="fade-in"
+            data-aos-duration="800"
+            data-aos-delay="400"
+          >
+            <h2 class="mb-10">Trusted From Over +3K Happy Clients</h2>
+            <p class="mb-10 ">
+              “I’m glad I decided to work with you. It’s really great how easy
+              your websites are to update and manage. I never have any problem
+              at all.”
+            </p>
+            <h3 id="name">Tom Black</h3>
+            <label for="name">CEO Founder at OceanThemes</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="info">
+      <div class="container mx-auto pl-20 pr-20">
+        <div class="flex flex-row pb-20">
+          <div class="flex-1">
+            <img
+              src="../static/info1.jpg"
+              alt="Design"
+              style="border-radius:0 40px;"
+            />
+          </div>
+          <div class="flex-1 pl-10 pr-10">
+            <h3 class="mb-5">Design</h3>
+            <p>
+              Design is about envoking emotion, it's about conveying an idea
+              precisely. It's about showing your value and fluently defining the
+              optimal way to accomplish a task. Here at digitalpanda, we eat,
+              breathe and sleep design.
+            </p>
+
+            <p>
+              We understand the intricacies between taking inspiration and
+              re-inventing the wheel. We believe in the adage - function over
+              form.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex flex-row pb-20">
+          <div class="flex-1 pl-10 pr-10">
+            <h3 class="mb-5">Full-stack Development</h3>
+            <p>
+              Design is about envoking emotion, it's about conveying an idea
+              precisely. It's about showing your value and fluently defining the
+              optimal way to accomplish a task. Here at digitalpanda, we eat,
+              breathe and sleep design.
+            </p>
+
+            <p>
+              We understand the intricacies between taking inspiration and
+              re-inventing the wheel. We believe in the adage - function over
+              form.
+            </p>
+          </div>
+          <div class="flex-1">
+            <img
+              src="../static/info2.jpg"
+              alt="Development"
+              style="border-radius:40px 0 0 0;"
+            />
+          </div>
+        </div>
+
+        <div class="flex flex-row">
+          <div class="flex-1">
+            <img
+              src="../static/info3.jpg"
+              alt="Marketing"
+              style="border-radius:40px 0;"
+            />
+          </div>
+          <div class="flex-1 pl-10 pr-10">
+            <h3 class="mb-5">Marketing</h3>
+            <p>
+              Design is about envoking emotion, it's about conveying an idea
+              precisely. It's about showing your value and fluently defining the
+              optimal way to accomplish a task. Here at digitalpanda, we eat,
+              breathe and sleep design.
+            </p>
+
+            <p>
+              We understand the intricacies between taking inspiration and
+              re-inventing the wheel. We believe in the adage - function over
+              form.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -112,5 +314,45 @@
   width: 100%;
   background: #ffcc33;
   z-index: 0;
+}
+
+#services h2 {
+  font-size: 28pt;
+}
+
+#testimonials {
+  background: #222a36;
+  color: #afafaf;
+  padding: 120px 0;
+}
+
+#testimonials h2 {
+  font-size: 36pt;
+  font-weight: 500;
+}
+
+#testimonials p {
+  font-size: 18pt;
+  font-weight: 300;
+  color: #afafaf;
+  line-height: 1.8;
+}
+
+#testimonials h3 {
+  font-size: 18pt;
+  color: #e1e1e1;
+  font-weight: bold;
+}
+
+#testimonials label {
+  font-size: 14pt;
+  color: #979797;
+}
+
+#info h3 {
+  font-size: 35pt;
+  color: #3a3a3a;
+  font-weight: bold;
+  line-height: 1.2;
 }
 </style>

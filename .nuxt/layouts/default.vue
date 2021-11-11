@@ -1,9 +1,7 @@
 <template>
   <div id="page">
-    <div class="container mx-auto">
-      <Header />
-      <Nuxt />
-      <Footer />
-    </div>
+    <Header />
+    <Nuxt />
+    <Footer />
   </div>
 </template>

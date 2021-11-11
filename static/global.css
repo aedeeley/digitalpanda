@@ -20,6 +20,10 @@ body {
     z-index: 1;
 }
 
+p {
+    margin-bottom: 30px;
+}
+
 .underline {
     text-decoration: none;
     position: relative;
@@ -63,4 +67,34 @@ body {
 
 .btn:hover {
     background-color: #ffcc66;
+}
+
+.panel {
+    display: inline-block;
+    overflow: hidden;
+    padding: 30px 35px 10px 35px;
+    background: #fefdfd;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+}
+
+.panel h4 {
+    font-size: 16pt;
+    font-weight: bold;
+    margin: 15px 0 5px 0;
+}
+
+.panel p {
+    font-size: 11pt;
+    color: #a0a0a0;
+}
+
+.panel:hover {
+    background: #f8d24d;
+    border: 1px solid #f8d24d;
+}
+
+.panel:hover h4,
+.panel:hover p {
+    color: #fff;
 }
