@@ -14,6 +14,20 @@
     "_name": "_03e41af7"
   },
   {
+    "name": "policy",
+    "path": "/policy",
+    "component": "/Users/alexdeeley/GitHub/digitalpanda/pages/policy.vue",
+    "chunkName": "pages/policy",
+    "_name": "_294bd2aa"
+  },
+  {
+    "name": "terms",
+    "path": "/terms",
+    "component": "/Users/alexdeeley/GitHub/digitalpanda/pages/terms.vue",
+    "chunkName": "pages/terms",
+    "_name": "_4cc6389e"
+  },
+  {
     "name": "work",
     "path": "/work",
     "component": "/Users/alexdeeley/GitHub/digitalpanda/pages/work.vue",

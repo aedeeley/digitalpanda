@@ -1,16 +1,18 @@
 <template>
   <div
     id="footer"
-    class="pt-40 pb-20 pl-10 pr-10"
+    class="pt-20 pb-10 pl-10 pr-10"
     data-aos="fade"
     data-aos-duration="300"
     data-aos-delay="200"
   >
-    <div id="copyright">&copy; Copyright 2021. All Rights Reserved.</div>
+    <div id="copyright">
+      &copy; copyright 2021 digital panda limited. all rights reserved.
+    </div>
     <div id="links">
-      <a href="#">Privacy Policy</a>
-      <a href="#">Terms &amp; Conditions</a>
-      <a href="#">Contact</a>
+      <NuxtLink to="/policy">privacy policy</NuxtLink>
+      <NuxtLink to="/terms">terms &amp; conditions</NuxtLink>
+      <NuxtLink to="/contact">contact</NuxtLink>
     </div>
   </div>
 </template>
@@ -19,7 +21,7 @@
 #footer #copyright {
   float: left;
   font-family: "Inter", sans-serif;
-  color: #c6c6c6;
+  color: #c0c0c0;
   font-size: 11pt;
 }
 #footer #links {
@@ -28,7 +30,7 @@
 }
 #footer #links a {
   font-family: "Inter", sans-serif;
-  color: #c6c6c6;
+  color: #c0c0c0;
   font-size: 11pt;
   text-decoration: underline;
   margin-left: 1.5rem;

@@ -10,7 +10,9 @@
       >
         <NuxtLink to="/"
           ><img src="../static/logo.svg" alt="digitalpanda logo" />
-          <h1>digitalpanda</h1></NuxtLink
+          <h1 id="brand">
+            digitalpanda
+          </h1></NuxtLink
         >
       </div>
       <label data-aos="fade-in" data-aos-duration="400" data-aos-delay="300">
@@ -44,9 +46,13 @@
 <script></script>
 
 <style scoped>
+#brand.is-hidden {
+  opacity: 0;
+}
 #header {
   margin-left: -2rem;
-  position: relative;
+  position: fixed;
+  z-index: 9999;
   width: 100%;
 }
 #logo img {
@@ -63,6 +69,7 @@
   color: rgb(58, 58, 58);
 }
 #menu {
+  position: fixed;
   font-size: 32px;
   color: rgb(58, 58, 58);
   position: absolute;
@@ -129,7 +136,7 @@ label input:checked + .menu + ul {
 }
 label .menu {
   position: absolute;
-  right: 0;
+  right: 30px;
   top: -20px;
   z-index: 100;
   width: 100px;
@@ -146,9 +153,9 @@ label input:checked + .menu {
 }
 label ul {
   z-index: 200;
-  position: absolute;
+  position: fixed;
   top: 350px;
-  right: -120px;
+  right: -80px;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   opacity: 0;

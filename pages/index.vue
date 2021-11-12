@@ -1,5 +1,5 @@
 <template>
-  <div id="content" class="flex flex-col mt-20 pl-10 pr-10">
+  <div id="content" class="flex flex-col mt-20 pt-10 pl-10 pr-10">
     <div class="container mx-auto">
       <h2 data-aos="fade-right" data-aos-duration="400">
         For the past two decades we’ve specialized in creating

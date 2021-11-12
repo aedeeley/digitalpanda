@@ -1,5 +1,5 @@
 <template>
-  <div id="content" class="flex flex-col mt-40">
+  <div id="content" class="flex flex-col mt-40 pt-20">
     <div class="container mx-auto pl-10 pr-10">
       <div id="about">
         <img src="../static/about.jpg" class="headerImg" />
@@ -53,7 +53,7 @@
 
         <div class="flex mt-20 gap-20">
           <div class="flex-1">
-            <div class="grid grid-cols-2 gap-4">
+            <div class="grid grid-cols-2 gap-4 panel-grid">
               <div
                 class="panel"
                 data-aos="fade-in"
@@ -101,11 +101,12 @@
           </div>
 
           <div
-            class="flex-1 pt-20"
+            class="flex-1 pt-10"
             data-aos="fade-in"
             data-aos-duration="500"
             data-aos-delay="900"
           >
+            <h3 class="pb-5">Modern Design</h3>
             <p>
               Design is about envoking emotion, it's about conveying an idea
               precisely. It's about showing your value and fluently defining the
@@ -146,20 +147,40 @@
           >
             <img src="../static/testimonial.png" alt="Testimonials" />
           </div>
-          <div
-            class="flex-1 pl-20 pr-20"
-            data-aos="fade-in"
-            data-aos-duration="800"
-            data-aos-delay="400"
-          >
-            <h2 class="mb-10">Trusted From Over +3K Happy Clients</h2>
-            <p class="mb-10 ">
+          <div class="flex-1 pl-20 pr-20">
+            <h2
+              class="mb-10"
+              data-aos="fade-in"
+              data-aos-duration="600"
+              data-aos-delay="400"
+            >
+              Trusted From Over +3K Happy Clients
+            </h2>
+            <p
+              class="mb-10"
+              data-aos="fade-in"
+              data-aos-duration="400"
+              data-aos-delay="200"
+            >
               “I’m glad I decided to work with you. It’s really great how easy
               your websites are to update and manage. I never have any problem
               at all.”
             </p>
-            <h3 id="name">Tom Black</h3>
-            <label for="name">CEO Founder at OceanThemes</label>
+            <h3
+              id="name"
+              data-aos="fade-in"
+              data-aos-duration="800"
+              data-aos-delay="400"
+            >
+              Tom Black
+            </h3>
+            <label
+              for="name"
+              data-aos="fade-in"
+              data-aos-duration="1000"
+              data-aos-delay="600"
+              >CEO Founder at OceanThemes</label
+            >
           </div>
         </div>
       </div>
@@ -172,9 +193,17 @@
               src="../static/info1.jpg"
               alt="Design"
               style="border-radius:0 40px;"
+              data-aos="fade-in"
+              data-aos-duration="400"
+              data-aos-delay="200"
             />
           </div>
-          <div class="flex-1 pl-10 pr-10">
+          <div
+            class="flex-1 pl-10 pr-10"
+            data-aos="fade-in"
+            data-aos-duration="600"
+            data-aos-delay="200"
+          >
             <h3 class="mb-5">Design</h3>
             <p>
               Design is about envoking emotion, it's about conveying an idea
@@ -192,7 +221,12 @@
         </div>
 
         <div class="flex flex-row pb-20">
-          <div class="flex-1 pl-10 pr-10">
+          <div
+            class="flex-1 pl-10 pr-10"
+            data-aos="fade-in"
+            data-aos-duration="600"
+            data-aos-delay="200"
+          >
             <h3 class="mb-5">Full-stack Development</h3>
             <p>
               Design is about envoking emotion, it's about conveying an idea
@@ -212,6 +246,9 @@
               src="../static/info2.jpg"
               alt="Development"
               style="border-radius:40px 0 0 0;"
+              data-aos="fade-in"
+              data-aos-duration="600"
+              data-aos-delay="300"
             />
           </div>
         </div>
@@ -222,9 +259,17 @@
               src="../static/info3.jpg"
               alt="Marketing"
               style="border-radius:40px 0;"
+              data-aos="fade-in"
+              data-aos-duration="800"
+              data-aos-delay="600"
             />
           </div>
-          <div class="flex-1 pl-10 pr-10">
+          <div
+            class="flex-1 pl-10 pr-10"
+            data-aos="fade-in"
+            data-aos-duration="200"
+            data-aos-delay="400"
+          >
             <h3 class="mb-5">Marketing</h3>
             <p>
               Design is about envoking emotion, it's about conveying an idea
@@ -318,6 +363,12 @@
 
 #services h2 {
   font-size: 28pt;
+  font-weight: 800;
+}
+
+#services h3 {
+  font-size: 26pt;
+  font-weight: 200;
 }
 
 #testimonials {

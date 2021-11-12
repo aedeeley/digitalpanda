@@ -94,6 +94,21 @@ p {
     border: 1px solid #f8d24d;
 }
 
+.panel:nth-child(2):hover {
+    background: #9b76ba;
+    border: 1px solid #9b76ba;
+}
+
+.panel:nth-child(3):hover {
+    background: #6feeac;
+    border: 1px solid #6feeac;
+}
+
+.panel:nth-child(4):hover {
+    background: #d7514b;
+    border: 1px solid #d7514b;
+}
+
 .panel:hover h4,
 .panel:hover p {
     color: #fff;
